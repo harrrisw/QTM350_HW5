@@ -1,0 +1,80 @@
+---
+title: "World Development Indicators Presentation"
+author: "Harris Wang"
+format: 
+  revealjs: 
+    theme: solarized
+    transition: fade
+---
+# Introduction
+
+This presentation summarizes the analysis of three important economic indicators across various countries:
+- **Inflation Rate**
+- **GDP Growth Rate**
+- **Life Expectancy**
+
+The data comes from the World Development Indicators (WDI) dataset, published by the World Bank.
+
+
+# Exploratory Analysis
+
+## Inflation Rate Distribution
+
+- The histogram shows the distribution of inflation rates across different countries.
+- Most countries have low inflation rates, but a few outliers show exceptionally high rates.
+
+![Distribution of Inflation Rate](inflation_rate.png)
+
+
+# GDP Growth Rate Distribution
+
+- The histogram shows a more balanced distribution for GDP growth rates.
+- Most countries have moderate growth rates, while a few show rapid growth.
+
+![Distribution of GDP Growth Rate](gdp_growth_rate.png)
+
+
+# Life Expectancy Distribution
+
+- The life expectancy histogram shows that most countries have life expectancies around 70-80 years.
+- This indicates improvements in healthcare globally.
+
+![Distribution of Life Expectancy](life_expectancy.png)
+
+
+# Indicator Relational Analysis
+
+## Life Expectancy vs GDP Growth Rate
+
+- Higher life expectancy is often linked to healthier workforces and stronger economies.
+- The scatter plot below visualizes the relationship between life expectancy and GDP growth rate.
+
+![Life Expectancy vs GDP Growth Rate](le_gdp.png)
+
+
+# Fastest Growing Countries by GDP
+
+- The bar chart shows the top 10 countries with the highest GDP growth rates.
+- These nations may offer opportunities for investment and development.
+
+![Top 10 Countries by GDP Growth Rate](top_gdp_countries.png)
+
+
+# Summary Statistics
+
+A summary of key statistics for inflation rate, GDP growth rate, and life expectancy:
+
+| Indicator         | Mean  | Min    | Max    | Std Dev |
+|-------------------|-------|--------|--------|---------|
+| Inflation Rate     | 12.49 | -6.69  | 171.21 | 19.68   |
+| GDP Growth Rate    | 4.37  | -28.76 | 63.44  | 6.63    |
+| Life Expectancy    | 72.42 | 52.99  | 85.38  | 7.71    |
+
+
+# References
+
+- Bloom, D., Canning, D., & Sevilla, J. (2004). "The Effect of Health on Economic Growth: A Production Function Approach." *World Development*.
+- Rodrik, D. (2004). "Rethinking Economic Growth in Developing Countries."
+
+# Thanks for making this far ❤️
+
